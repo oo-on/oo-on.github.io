@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="웅진코웨이">
+    <meta name="Keywords" content="웅진코웨이">
+    <meta name="Description" content="웅진코웨이">
+    <title>웅진코웨이</title>
+
+    <link rel="stylesheet"  type="text/css"  href="css/main.css"/>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/co_js.js"></script>
+
+</head>
+<body>
+	<div id="skipMenu">
+		<a href="#gnbWrap">주메뉴 바로가기</a>
+		<a href="#container">본문 바로가기</a>
+	</div>
+    
+	<div id="wrapper">
+		<header class="headerWrap">
+			<div class="header_wrap clearfix">
+				<h1><img src="images/co_logo.png" alt="웅진코웨이 로고"></h1>
+				<form method="POST" action="#" name="co_frm_search" class="co_frm_search disnone">
+					<fieldset>
+						<legend>검색</legend>
+						<label for="co_search" class="skip">검색</label>
+						<input type="text" name="co_search" id="co_search"  placeholder="검색어를 입력하세요">
+						<button class="co_search_btn">검색</button>
+					</fieldset>
+				</form>
+				<ul class="clearfix disnone">
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">공식인증 판매처</a></li>
+					<li>
+						<form method="POST" action="#" name="co_frm_language">
+							<fieldset>
+								<legend>언어선택</legend>
+								<select class="co_language" name="co_language">
+									<option value="#">language</option>
+									<option value="#">English</option>
+									<option value="#">China</option>
+									<option value="#">Japan</option>
+								</select><button class="go_btn">go</button>
+							</fieldset>
+						</form>
+					</li>
+				</ul>
+				<div class="gnbBtn disBlock">
+					<a href="#">
+						<span>1</span>
+						<span>2</span>
+						<span>3</span>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<div id="gnbWrap">
+			<nav class="gnb_wrap">
+				<ul class="gnb_1depth">
+					<li><a href="#">제품</a>
+						<ul class="gnb_2depth clearfix">
+							<li><a href="#">Water care</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">정수기</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Air care</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">공기청정기</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Body care</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">비데/연수기/클린워셔</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Sleep care</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">매트리스/프레임</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Living care</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">주방/리빙/MD컬렉션</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li><a href="#">서비스</a>
+						<ul class="gnb_2depth">
+							<li><a href="#">코웨이 케어전문가</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">케어전문가 지원하기</a></li>
+									<li><a href="#">코디</a></li>
+									<li><a href="#">CS닥터</a></li>
+									<li><a href="#">홈케어닥터</a></li>
+									<li><a href="#">헬스플래너</a></li>
+									<li><a href="#">블루버드</a></li>
+									<li><a href="#">코디/닥터 칭찬</a></li>
+								</ul>
+							</li>
+							<li><a href="#">IoCare 서비스</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">IoCare 소개</a></li>
+									<li><a href="#">공기진단 서비스 신청</a></li>
+								</ul>
+							</li>
+							<li><a href="#">HEART 서비스</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">HEART 서비스 소개</a></li>
+									<li><a href="#">제품별 HEART서비스</a></li>
+									<li><a href="#">개인별 맞춤 서비스</a></li>
+									<li><a href="#">자가관리 노하우</a></li>
+								</ul>
+							</li>
+							<li><a href="#">케어서비스</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">매트리스 케어서비스</a></li>
+									<li><a href="#">의류청정기 케어서비스</a></li>
+								</ul>
+							</li>
+							<li><a href="#">렌탈/멤버쉽</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">혜택</a>
+						<ul class="gnb_2depth">
+							<li><a href="#">코웨이 멤버스</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">코웨이 멤버스</a></li>
+									<li><a href="#">코웨이 제휴사</a></li>
+									<li><a href="#">코웨이 제휴카드</a></li>
+								</ul>
+							</li>
+							<li><a href="#">SU: CLUB</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">SU:CLUB 소개</a></li>
+									<li><a href="#">SU:CLUB 이벤트</a></li>
+									<li><a href="#">SU:CLUB 커뮤니티</a></li>
+								</ul>
+							</li>
+							<li><a href="#">이벤트</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">웅진코웨이 이벤트</a></li>
+									<li><a href="#">당첨자 발표</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li><a href="#">고객지원</a>
+						<ul class="gnb_2depth">
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">1:1문의</a></li>
+							<li><a href="#">콜센터 이용안내</a></li>
+							<li><a href="#">B2B문의</a></li>
+							<li><a href="#">제휴제안</a></li>
+							<li><a href="#">전국매장찾기</a></li>
+							<li><a href="#">법적고지</a></li>
+							<li><a href="#">이렇게 구매하세요</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">기업</a>
+						<ul class="gnb_2depth">
+							<li><a href="#">기업소개</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">웅진코웨이는?</a></li>
+									<li><a href="#">CEO 인사말</a></li>
+									<li><a href="#">가치체계</a></li>
+									<li><a href="#">CI</a></li>
+									<li><a href="#">비즈니스</a></li>
+									<li><a href="#">역사</a></li>
+									<li><a href="#">수상 및 인증</a></li>
+									<li><a href="#">웅진코웨이 소식</a></li>
+									<li><a href="#">오시는 길</a></li>
+								</ul>
+							</li>
+							<li><a href="#">브랜드</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">브랜드 방향성</a></li>
+									<li><a href="#">브랜드 핵심역량</a></li>
+									<li><a href="#">브랜드 가치평가</a></li>
+									<li><a href="#">물쉼표시간</a></li>
+									<li><a href="#">케어스테이션(체험존)</a></li>
+								</ul>
+							</li>
+							<li><a href="#">이노베이션</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">연구개발</a></li>
+									<li><a href="#">디자인</a></li>
+									<li><a href="#">기업문화</a></li>
+									<li><a href="#">업무공간</a></li>
+								</ul>
+							</li>
+							<li><a href="#">지속가능경영</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">지속가능경영 개요</a></li>
+									<li><a href="#">윤리경영</a></li>
+									<li><a href="#">사회공헌</a></li>
+								</ul>
+							</li>
+							<li><a href="#">무한책임위원회</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">무한책임위원회란?</a></li>
+									<li><a href="#">무한책임 TOON</a></li>
+									<li><a href="#">WATER LIBRARY</a></li>
+								</ul>
+							</li>
+							<li><a href="#">투자정보</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">IR정보</a></li>
+									<li><a href="#">결산공고</a></li>
+								</ul>
+							</li>
+							<li><a href="#">인재채용</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">웅진코웨이 HR</a></li>
+									<li><a href="#">채용공고</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li><a href="#">마이코웨이</a>
+						<ul class="gnb_2depth">
+							<li><a href="#">나의 제품 서비스</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">나의 렌탈/멤버십 이용</a></li>
+									<li><a href="#">A/S 신청</a></li>
+									<li><a href="#">수질분석 서비스 신청</a></li>
+								</ul>
+							</li>
+							<li><a href="#">나의 결제관리</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">청구 요금 결제</a></li>
+									<li><a href="#">납부내역 조회</a></li>
+									<li><a href="#">납부방법 변경</a></li>
+									<li><a href="#">선납 신청/결제</a></li>
+									<li><a href="#">멤버십 신청</a></li>
+								</ul>
+							</li>
+							<li><a href="#">나의 코웨이 멤버스</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">포인트 결제</a></li>
+									<li><a href="#">포인트 조회</a></li>
+									<li><a href="#">포인트 자동납부 설정</a></li>
+									<li><a href="#">멤버스 카드 조회</a></li>
+								</ul>
+							</li>
+							<li><a href="#">마이쇼핑</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">주문내역</a></li>
+									<li><a href="#">취소/반품/교환/환불</a></li>
+								</ul>
+							</li>
+							<li><a href="#">나의 정보관리</a>
+								<ul class="gnb_3depth">
+									<li><a href="#">회원정보 변경</a></li>
+									<li><a href="#">비밀번호 변경</a></li>
+									<li><a href="#">회원탈퇴</a></li>
+									<li><a href="#">나의 이벤트</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul><!--gnb_1depth e-->
+			</nav>
+		</div>
+
+		<div id="container" class="clearfix">
+			<section class="co_main mb">
+				<div class="co_tabmenu">
+					<a href="#" class="tabOn" title="정수기">Water Care</a><a href="#" title="공기청정기">Air Care</a><a href="#" title="비데/클린워셔">Body Care</a><a href="#" title="매트리스">Sleep Care</a><a href="#" title="주방/리빙">Living Care</a>
+				</div>
+				<div class="co_banner">
+					<ul>
+						<li class="waterCare tabOn">
+							<div class="banner_zone">
+								<span class="banner_img"><img src="images/co_preview1.jpg" alt="water Care"></span>
+								<div class="banner_txt">
+									<p><span class="txt_bold">Water</span> Care</p>
+									<p>당신을 위한 더 새로운 물. 깨끗한 물을 넘어 건강하고<br>즐거운 물이 다양한 음용 경험과 일상의 활력을 선사합니다.</p>
+									<button class="banner_txt_more">자세히보기</button>
+								</div>
+
+								<a href="#" title="제품 더보기"><span class="banner_popup"><span class="banner_popup_plus"></span><span class="banner_popup_plus"></span></span></a>
+
+								<div class="popUp clearfix">
+									<span><img src="images/co_popup1.png" alt="코웨이 마이한뼘 정수기"></span>
+									<p class="popup_txt">코웨이 마이한뼘 정수기 IoCare<br> <span>한뼘을 넘어선 마이한뼘에 담은 프로워터</span></p>
+									<button class="popup_more">자세히보기</button>
+									<a href="#" title="창닫기"></a>
+								</div>
+							</div>
+
+							<div class="co_product">
+								<ul class="product_list clearfix">
+									<li>
+										<span><img src="images/co_subbanner1-1.png" alt="코웨이 정수기 아이스"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CHPI-6500L</span>
+											<span class="list_txt_name">코웨이 정수기 아이스</span>
+											<span class="list_txt_ex">깨끗한 물과 얼음, 안심 기능까지!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner1-2.png" alt="코웨이 정수기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">P-6300L</span>
+											<span class="list_txt_name">코웨이 정수기</span>
+											<span class="list_txt_ex">깨끗한 정수를 편리하고 다양하게!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner1-3.png" alt="코웨이 마이한뼘 정수기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CHP-482L</span>
+											<span class="list_txt_name">코웨이 마이한뼘 정수기</span>
+											<span class="list_txt_ex">마이한뼘 정수기 IoCare</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner1-4.png" alt="코웨이 정수기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CHP-481L</span>
+											<span class="list_txt_name">코웨이 정수기</span>
+											<span class="list_txt_ex">마이한뼘에 담은 프로워터!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</li><!--waterCare e-->
+
+						<li class="airCare">
+							<div class="banner_zone">
+								<span class="banner_img"><img src="images/co_preview2.jpg" alt="air Care"></span>
+								<div class="banner_txt">
+									<p><span class="txt_bold">Air</span> Care</p>
+									<p>당신을 위한 최상의 릴렉스. 눈으로 확인할 수 있는<br>깨끗한 공기가 편안한 쾌적함을 선사하고 안심할 수 있게 합니다.</p>
+									<button class="banner_txt_more">자세히보기</button>
+								</div>
+
+								<a href="#" title="제품 더보기"><span class="banner_popup"><span class="banner_popup_plus"></span><span class="banner_popup_plus"></span></span></a>
+								
+								<div class="popUp clearfix">
+									<span><img src="images/co_popup2.png" alt="코웨이 멀티액션 공기청정기"></span>
+									<div class="popUp_txt_wrap">
+										<p class="popup_txt">코웨이 멀티액션 공기청정기<br> <span>빠르게 깨끗한 공기를 전달하는 4가지 멀티액션</span></p>
+										<button class="popup_more">자세히보기</button>
+									</div>
+									<a href="#" title="창닫기"></a>
+								</div>
+							</div>
+
+							<div class="co_product">
+								<ul class="product_list">
+									<li>
+										<span><img src="images/co_subbanner2-1.png" alt="코웨이 공기청정기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">AP-1018F</span>
+											<span class="list_txt_name">코웨이 공기청정기</span>
+											<span class="list_txt_ex">강력한 청정 성능에 편리함까지!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner2-2.png" alt="듀얼파워 공기청정기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">AP-1515D</span>
+											<span class="list_txt_name">듀얼파워 공기청정기</span>
+											<span class="list_txt_ex">듀얼파워로 강력하게! 스마트하게!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner2-3.png" alt="멀티액션 공기청정기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">AP-1516D</span>
+											<span class="list_txt_name">멀티액션 공기청정기</span>
+											<span class="list_txt_ex">깨끗한 공기를 전달하는 멀티액션!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner2-4.png" alt="코웨이 제습공기청정기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">APD-1015B</span>
+											<span class="list_txt_name">코웨이 제습공기청정기</span>
+											<span class="list_txt_ex">에너지 효율 1등급의 강력한 청정 성능</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+										
+									</li>
+								</ul>
+							</div>
+						</li><!--airCare e-->
+
+						<li class="bodyCare">
+							<div class="banner_zone">
+								<span class="banner_img"><img src="images/co_preview3.jpg" alt="body Care"></span>
+								<div class="banner_txt">
+									<p><span class="txt_bold">Body</span> Care</p>
+									<p>당신을 위한 건강한 습관. 매일 몸에 닿는 깨끗한 물과<br>규칙적인 습관이 건강하고 쾌적한 컨디션을 만듭니다.</p>
+									<button class="banner_txt_more">자세히보기</button>
+								</div>
+								<a href="#" title="제품 더보기"><span class="banner_popup"><span class="banner_popup_plus"></span><span class="banner_popup_plus"></span></span></a>
+								<div class="popUp clearfix">
+									<span><img src="images/co_popup3.png" alt="코웨이! 비데"></span>
+									<div class="popUp_txt_wrap">
+										<p class="popup_txt">코웨이 스스로살균 비데<br> <span>똑똑!깨끗!알뜰! 선택의 기준이 되다!</span></p>
+										<button class="popup_more">자세히보기</button>
+									</div>
+									<a href="#" title="창닫기"></a>
+								</div>
+							</div>
+
+							<div class="co_product">
+								<ul class="product_list">
+									<li>
+										<span><img src="images/co_subbanner3-1.png" alt="스타일케어 비데"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">BAS31-A</span>
+											<span class="list_txt_name">스타일케어 비데</span>
+											<span class="list_txt_ex">욕실을 더욱 세련되게 스타일케어 비데</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner3-2.png" alt="스스로살균 비데"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">BAS29-C</span>
+											<span class="list_txt_name">스스로살균 비데</span>
+											<span class="list_txt_ex">똑똑.깨끗.알뜰 선택의 기준이 되다!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+										
+									</li>
+									<li>
+										<span><img src="images/co_subbanner3-3.png" alt="스스로살균 비데"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">BAS27-C</span>
+											<span class="list_txt_name">스스로살균 비데</span>
+											<span class="list_txt_ex">회오리 살균으로 완벽해진 스스로살균</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+										
+									</li>
+									<li>
+										<span><img src="images/co_subbanner3-4.png" alt="스스로살균 비데"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">BAS22-D</span>
+											<span class="list_txt_name">스스로살균 비데</span>
+											<span class="list_txt_ex">쓰는 사람이 많아도 늘 새것처럼!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+										
+									</li>
+								</ul>
+							</div>
+						</li><!--bodyCare e-->
+
+						<li class="sleepCare">
+							<div class="banner_zone">
+								<span class="banner_img"><img src="images/co_preview4.jpg" alt="sleep Care"></span>
+								<div class="banner_txt">
+									<p><span class="txt_bold">Sleep</span> Care</p>
+									<p>당신을 위한 최고의 수면환경. 개인의 체형과 라이프<br>스테이지에 꼭 맞춘 최적의 수면솔루션을 제공합니다.</p>
+									<button class="banner_txt_more">자세히보기</button>
+								</div>
+
+								<a href="#" title="제품 더보기"><span class="banner_popup"><span class="banner_popup_plus"></span><span class="banner_popup_plus"></span></span></a>
+
+								<div class="popUp clearfix">
+									<span><img src="images/co_popup4.png" alt="코웨이 커버교체 매트리스"></span>
+									<div class="popUp_txt_wrap">
+										<p class="popup_txt">코웨이 커버교체 매트리스<br> <span>분리형 커버와 케어서비스로 쾌적하게</span></p>
+										<button class="popup_more">자세히보기</button>
+									</div>
+									<a href="#" title="창닫기"></a>
+								</div>
+							</div>
+
+							<div class="co_product">
+								<ul class="product_list">
+									<li>
+										<span><img src="images/co_subbanner4-1.png" alt="투매트리스 프레임"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CFQ-TM10G</span>
+											<span class="list_txt_name">투매트리스 프레임</span>
+											<span class="list_txt_ex">볼륨감 있는 쿠션헤드로 더욱 포근하게!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+										
+									</li>
+									<li>
+										<span><img src="images/co_subbanner4-2.png" alt="투매트리스 프레임"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CFQ-TM10C</span>
+											<span class="list_txt_name">투매트리스 프레임</span>
+											<span class="list_txt_ex">쿠션헤드가 선사하는 포근함!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner4-3.png" alt="투매트리스 프레임"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CFSS-TM09W</span>
+											<span class="list_txt_name">투매트리스 프레임</span>
+											<span class="list_txt_ex">심플하고 탄탄한 기본에 충실한 프레임</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner4-3.png" alt="투매트리스 프레임"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CFSS-TM09W</span>
+											<span class="list_txt_name">투매트리스 프레임</span>
+											<span class="list_txt_ex">심플하고 탄탄한 기본에 충실한 프레임</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</li><!--sleepCare e-->
+
+						<li class="livingCare">
+							<div class="banner_zone">
+								<span class="banner_img"><img src="images/co_preview5.jpg" alt="living Care"></span>
+								<div class="banner_txt">
+									<p><span class="txt_bold">Living</span> Care</p>
+									<p>당신을 위한 건강한 생활 환경. 깨끗하고 건강한<br>식생활과 주거생활을 통해 삶의 질을 높입니다.</p>
+									<button class="banner_txt_more">자세히보기</button>
+								</div>
+								
+								<a href="#" title="제품 더보기"><span class="banner_popup"><span class="banner_popup_plus"></span><span class="banner_popup_plus"></span></span></a>
+
+								<div class="popUp clearfix">
+									<span><img src="images/co_popup5.png" alt="코웨이 주스프레소"></span>
+									<div class="popUp_txt_wrap">
+										<p class="popup_txt">코웨이 주스프레소<br> <span>집에서도 맛있고 건강하게! 홈메이드 주스</span></p>
+										<button class="popup_more">자세히보기</button>
+									</div>
+									<a href="#" title="창닫기"></a>
+								</div>
+							</div>
+
+							<div class="co_product">
+								<ul class="product_list">
+									<li>
+										<span><img src="images/co_subbanner5-1.png" alt="안마의자 한방온혈"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">MC-S01</span>
+											<span class="list_txt_name">안마의자 한방온혈</span>
+											<span class="list_txt_ex">한방의 힘으로 진화한 프리미엄 안마의자</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner5-2.png" alt="전기레인지 하이라이트"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">CER-03</span>
+											<span class="list_txt_name">전기레인지 하이라이트</span>
+											<span class="list_txt_ex">조리는 더 빠르게, 다양한 요리도 쉽게!</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner5-3.png" alt="사계절 의류청정기"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">FAD-02</span>
+											<span class="list_txt_name">사계절 의류청정기</span>
+											<span class="list_txt_ex">안에서 의류청정, 밖에서 공간청정하는 안팎케어시스템</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+									<li>
+										<span><img src="images/co_subbanner5-4.png" alt="안마의자 척추온열"></span>
+										<p class="list_txt">
+											<span class="list_txt_num">MC-P02</span>
+											<span class="list_txt_name">안마의자 척추온열</span>
+											<span class="list_txt_ex">3D플러스 척추온열 안마로 누리는 <br>휴식의 프리미엄</span>
+											<button class="list_txt_more">더보기 +</button>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</li><!--livingCare e-->
+					</ul>
+				</div><!--co_banner e-->
+			</section><!--co_main e-->
+
+			<section class="co_iocare mb">
+				<div class="co_secTitle">
+					<span class="subTitle">COWAY IOCARE</span>
+					<h2>사람을 위한 맞춤형 솔루션, <span class="title_bold">코웨이 IoCare</span></h2>
+				</div>
+				<div class="iocare_wrap">
+					<div class="iocare_cont clearfix">
+						<div class="iocare_bg"><img src="images/co_iocare_backimg.jpg" alt=""></div>
+						<div class="iocare_txt">
+							<p>Coway<img src="images/co_icocare_logo.png" alt="ioCare"></p>
+							<span>단순히 주변의 상황을 분석하고<br>진단하는 수준에 머물러 있던 지금까지의 IoT,<br>웅진코웨이는 한 차원 높은 <br>라이프케어 서비스를 선보입니다.</span>
+						</div>
+						<div class="iocare_step clearfix">
+							<div class="iocare_step1">
+								<p class="iocare_step_txt">빅데이터를 통한<br>객관적 현상 분석</p>
+							</div>
+							<div class="iocare_step2">
+								<p class="iocare_step_txt">분석된 결과에 따라<br>개인 맞춤형 실시간 진단</p>
+							</div>
+							<div class="iocare_step3">
+								<p class="iocare_step_txt">진단결과에 따른<br>행동가이드 컨설팅</p>
+							</div>
+							<div class="iocare_step4">
+								<p class="iocare_step_txt">실시간 솔루션과<br>코솔루션 제공</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--co_iocare e-->
+
+			<section class="co_story mb">
+				<div class="co_secTitle">
+					<span class="subTitle">OUR STORY</span>
+					<h2><span class="title_bold">코웨이</span> 이야기</h2>
+				</div>
+				<div class="co_story_list">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<p class="story_txt">이번 주말 추천 데이트 코스!<br>여의도 한강공원</p>
+								<span class="story_more">더보기 +</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="story_txt">2019 환경의 날!<br>미세먼지 줄이는 일상 꿀팁!</p>
+								<span class="story_more">더보기 +</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="story_txt">깔끔쟁이 집사들을 위한<br>고양이 화장실 관리법</p>
+								<span class="story_more">더보기 +</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section><!--co_story e-->
+
+			<section class="co_service">
+				<div class="co_secTitle">
+					<span class="subTitle">OUR SERVICE</span>
+					<h2><span class="title_bold">무엇</span>을 도와드릴까요?</h2>
+				</div>
+				<div class="co_service_txt_wrap">
+					<ul class="clearfix">
+						<li class="call_center clearfix">
+							<div>
+								<span>고객콜센터</span>
+								<p>1588-5200</p>
+							</div>
+							<span class="call_time">평일 AM 9:00 ~ PM 6:00<br> 토요일 AM 9:00 ~ PM 2:00 <br> 공휴일/일요일 AM 9:00 ~ PM 4:00</span>
+						</li>
+						<li><a href="#"><p class="center_bold">1:1 문의</p><span>문의주신 내용에 친절하고<br>신속하게 답변 드리겠습니다</span></a></li>
+						<li><a href="#"><p class="center_bold">A/S신청</p><span>고객님께서 사용하고 계신 제품의<br>불편사항을 신청해주세요</span></a></li>
+						<li><a href="#"><p class="center_bold">카카오톡 고객센터</p><span>AS접수 등 간단한 업무는<br>카카오톡으로 접수 (평일 09~18시)</span></a></li>
+					</ul>
+				</div>
+				<div class="co_service_barcode">
+					<form method="post" action="#">
+						<fieldset class="clearfix">
+							<legend>바코드 번호조회</legend>
+							<label for="barcode"><span class="title_bold">바코드</span> 번호조회</label>
+							<span class="barcode_txt">사용중인 제품의 유형을 검색할 수 있습니다</span>
+							<div class="user_barcode">
+								<input type="text" name="barcode" id="barcode" placeholder="바코드 번호를 입력하세요"> 
+								<button class="searchbtn">검색</button>
+							</div>
+						</fieldset> 
+					</form>
+				</div>
+			</section>
+		</div>
+
+		<footer class="footerWrap">
+			<div class="footer_wrap clearfix">
+				<div class="footer_txt">
+					<p class="footer_site">
+						<span><a href="#">사이트맵</a></span>
+						<span><a href="#">이용약관</a></span>
+						<span><a href="#">개인정보처리방침</a></span>
+						<span><a href="#">법적고지</a></span>
+						<span><a href="#">이메일무단수집거부</a></span>
+						<span><a href="#">임직원 확인 서비스</a></span>
+						<span><a href="#">판매인 검색</a></span>
+						<span><a href="#">윤리제보센터</a></span>
+						<span><a href="#">인증번호발급</a></span>
+					</p>
+					<p class="footer_addr">
+						<span class="addr_bold">본사</span>  서울특별시 중구 서소문로 88 웅진코웨이 서소문빌딩 11층~18층   |   <span class="addr_bold">사업장 주소</span>  충남 공주시 유구읍 마곡사로 136-23<br>
+						<span class="addr_bold">대표이사</span>  이해선   |   <span class="addr_bold">사업자등록번호</span>  307-81-06054   |   <span class="addr_bold">통신판매번호</span>  제2005-21호 사업자정보확인<br>
+						COPYRIGHT&copy;  WOONGJIN COWAY CO.,LTD ALL RIGHTS RESERVED.
+					</p>
+				</div>
+				<aside class="footer_familySns clearfix">
+					<form method="post" action="#" name="footer_frm" class="footer_family">
+						<fieldset>
+							<legend>family site</legend>
+							<select name="familySite" title="Family Site">
+								<option value="#">Family Site</option>
+								<option value="#">IR Site</option>
+								<option value="#">환경분석센터</option>
+								<option value="#">지속가능경영보고</option>
+								<option value="#">Re:NK</option>
+								<option value="#">울빛</option>
+								<option value="#">헬시그루</option>
+							</select>
+						</fieldset> 
+					</form>
+					<ul class="footer_sns clearfix">
+						<li><a href="#">facebook</a></li>
+						<li><a href="#">twitter</a></li>
+						<li><a href="#">instagram</a></li>
+					</ul>
+				</aside>
+			</div>
+		</footer>
+	</div><!--wrapper e-->
+    
+    
+</body>
+</html>
