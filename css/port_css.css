@@ -101,7 +101,7 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 .web_list{padding:30px 0 0 48%; }
 .list_title{line-height:2; position:relative}
 .title{cursor:pointer}
-.title.titleOn{background-color: #333}
+.title.titleOn{color: #ff0}
 
 .list_wrap{margin-bottom:150px; display:none}
 .text{font-size:15px}
