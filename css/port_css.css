@@ -116,8 +116,9 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 
 .preview{position:absolute; top:4%; right:107%}
 .preview:hover{cursor:move}
-.preview > span{display:block; width:900px; height:550px; position:relative; display:none}
-.preview .previewOn{display:block}
+.preview > span{display:block; width:900px; height:550px; position:relative}
+.co_preview > span{display:none}
+.co_preview .previewOn{display:block}
 
 .co_preview > span:nth-of-type(1){background:url(../images/CO_preview.jpg) no-repeat 0 0; background-size:cover}
 .co_preview > span:nth-of-type(2){width:720px; background:url(../images/CO_preview_1024.jpg) no-repeat 0 0; background-size:cover}
