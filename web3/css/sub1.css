@@ -7,13 +7,13 @@
 
 
 
-#loginWrap{width:1200px; margin:0 auto; position:relative }
-.miniNavi_login{overflow:hidden; margin-bottom:150px; }
-.miniNavi_login li{float:left; padding-left:20px;  }
+#loginWrap{width:1200px; margin:0 auto; position:relative}
+.miniNavi_login{overflow:hidden; margin-bottom:150px}
+.miniNavi_login li{float:left; padding-left:20px}
 .miniNavi_login li:first-child{padding-left:0}
-.miniNavi_login li span{background:url(../images/subImg/LH_mininavi_arrow.png) no-repeat 0 1px;  padding-left:25px; }
+.miniNavi_login li span{background:url(../images/subImg/LH_mininavi_arrow.png) no-repeat 0 1px;  padding-left:25px}
 
-.login{width:1000px; height:250px; background-color:#f2f2f2; position:relative; padding:50px 100px;  }
+.login{width:1000px; height:250px; background-color:#f2f2f2; position:relative; padding:50px 100px}
 .login .loginLeft{ background:url(../images/subImg/LH_icon_join.png) no-repeat 0 0; width:200px; height:250px; float:left}
 .loginLeft a{display:inline-block; width:210px; padding-top:220px}
 .loginLeft a span{background:url(../images/subImg/LH_icon_join_go.gif) no-repeat right 3px; padding-right:35px; font-size:18px; font-weight:bold; color:#0b3a8a}
@@ -22,16 +22,16 @@
 .login .loginRight{float:right; width:600px; margin-top:20px}
 .loginRight p:first-child{font-size:24px; font-weight:bold; color:#0b3a8a; margin-bottom:50px}
 
-.loginRight .userInput{width:470px; height:120px; float:left; }
-.userInput dt{float:left; }
+.loginRight .userInput{width:470px; height:120px; float:left}
+.userInput dt{float:left}
 .userInput dd{padding:0 0 10px 90px}
 .userInput label{margin-right:10px}
 .userInput input[type="text"],
-.userInput input[type="password"]{width:380px; height:37px; padding-left:10px; background-color:#fff; border:none}
+.userInput input[type="password"]{width:350px; height:37px; padding-left:10px; background-color:#fff; border:none}
 .userInput input[type="checkbox"]{width:25px; height:25px; margin-left:90px}
-.userInput .saveId{font-size:18px; padding-left:5px; }
+.userInput .saveId{font-size:18px; padding-left:5px}
 
-.loginRight .findIdPw{ float:right; }
+.loginRight .findIdPw{ float:right}
 .loginRight .findIdPw a{font-size:18px; padding-left:10px}
 .loginRight .findIdPw a:hover,
 .loginRight .findIdPw a:active,
