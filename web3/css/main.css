@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(class.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+#container{width:100%;position:relative}
+
+.main1_notice{width:1200px; position:relative}
+
+/*main1 왼쪽 메인배너*/
+.main1_left{width:785px; height:323px; position:relative; float:left; overflow:hidden; margin-right:35px}
+.main1_banner{width:785px; height:323px; position:relative}
+.main1_banner a{display:inline-block; width:785px; height:323px; position:absolute; top:0; left:0}
+
+/*main1 왼쪽 비주얼버튼*/
+.visualNum{width:80px; position:absolute; bottom:10px; right:10px; font-size:0;  line-height:0}
+.visualNum a{display:inline-block; width:12px; height:19px; padding-left:15px}
+.visualNum span{display:inline-block; width:12px; height:19px}
+.visual_onoff li{float:left; }
+.visual_onoff li  a{background:url(../images/mainImg/LH_mb_visualnum_off.png) no-repeat 0 0}
+.visual_onoff .on{background:url(../images/mainImg/LH_mb_visualnum_on.png) no-repeat 0 0}
+.visualNum span{ float:left; }
+.pause a{background:url(../images/mainImg/LH_mb_visualnum_stop.png) no-repeat 0 0}
+.play a{background:url(../images/mainImg/LH_mb_visualnum_play.png) no-repeat 0 0}
+
+/*main1 오른쪽 동반성장*/
+.main1_right{float:left; width:380px}
+.main1_together{width:360px; height:162px; background-color:#90c31f; padding:20px 0 0 20px; margin-bottom:30px}
+.main1_together a{display:inline-block; width:360px; height:162px; background:url(../images/mainImg/LH_icon_together.png) no-repeat 220px 10px; color:white; font-size:18px}
+.boxinTitle{font-size:20px; font-weight:700; margin-bottom:20px; display:block}
+
+/*main1 오른쪽 공지사항*/
+.main1_noticeTxt{position:relative}
+.main1_noticeTxt h3{margin-bottom:10px }
+.main1_noticeTxt li{line-height:1.5em; overflow:hidden;  width:380px}
+.main1_noticeTxt ul li a{float:left; display:inline-block; width:290px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis }
+.main1_noticeTxt ul li img,
+.workTxt li img{padding-right:5px}
+.main1_noticeTxt ul li span,
+.workTxt li span{float:right; color:#888}
+.notice_btn{position:absolute; top:5px; right:0}
+
+
+
+
+
+/*main2 바로가기 주메뉴*/
+.main2_gocenter{width:1200px}
+.gocenterBtn{position:relative }
+.gocenterBtn_1{overflow:hidden}
+.gocenterBtn_1 li{width:96px; height:130px; float:left; margin-left:88px; text-align:center}
+.gocenterBtn_1 li:first-child{margin-left:0}
+.gocenterBtn_1 li a{background:url(../images/mainImg/LH_go.png) no-repeat 0 0; display:inline-block; width:96px;  padding-top:102px; text-align:center}
+.gocenterBtn_1 li .gcBtn1_1{background-position:0 0}
+.gocenterBtn_1 li .gcBtn1_2{background-position:-96px 0}
+.gocenterBtn_1 li .gcBtn1_3{background-position:-193px 0}
+.gocenterBtn_1 li .gcBtn1_4{background-position:-290px 0; letter-spacing:-0.13em}
+.gocenterBtn_1 li .gcBtn1_5{background-position:-387px 0}
+.gocenterBtn_1 li .gcBtn1_6{background-position:-483px 0}
+.gocenterBtn_1 li .gcBtn1_7{background-position:-581px 0}
+
+/*main2 바로가기 부메뉴*/
+.gocenterBtn_2{padding-top:30px; overflow:hidden}
+.gocenterBtn_2 li{float:left; padding-left:5px}
+.gocenterBtn_2 li a{width:395px; height:40px; display:inline-block; color:white; text-align:center; line-height:40px}
+.gocenterBtn_2 li .gcBtn2_1{background-color:#00b7ee}
+.gocenterBtn_2 li .gcBtn2_2{background-color:#448aca}
+.gocenterBtn_2 li .gcBtn2_3{background-color:#005982}
+
+
+
+
+
+/*main3 일자리정보*/
+.workinfoWrap{width:100%; background-color:#f2f2f2; height:220px; padding:50px 0}
+.main3_workinfo{width:1200px;  overflow:hidden}
+.main3_workinfo h3{margin-bottom:10px}
+.workBtnWrap{float:left; width:376px; height:220px; background-color:#90c31f}
+.workBtnWrap a{display:inline-block; width:356px; height:200px;  padding:20px 0 0 20px; background:url(../images/mainImg/LH_icon_work.png) no-repeat 200px bottom; color:white; font-size:18px}
+.workBtn .smallTxt{font-size:15px; display:block; margin-top:8px; color:#ffff00}
+
+/*main3 채용정보*/
+.workTxtWrap{float:left; margin:0 36px; position:relative; width:376px}
+.workTxt li{line-height:1.7em}
+.workTxt li a{float:left; width:280px; display:inline-block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.workTxt_more{position:absolute; top:0; right:0}
+
+/*main3 일자리 현장 스케치*/
+.workSketchWrap{float:left; position:relative}
+.workSketch .workS_more{position:absolute; top:0; right:0}
+
+
+
+
+
+/*main4 보도자료*/
+.main4_news{width:1200px; position:relative}
+.main4_news h3{text-align:center}
+.newsList li{float:left; margin-left:20px}
+.newsList li:first-child{margin-left:0px}
+.newsList .photoNone{width:208px; height:190px; background-color:#c3d600}
+.photoNone a{color:#fff; font-weight:bold; display:inline-block;padding:100px  5px 0px 5px}
+
+.photoNone .newsTitle{font-size:20px; line-height:1.4em}
+
+.news_more{position:absolute; top:0; right:0}
+
+
+
+
+
+/*main5 콜센터*/
+.main5_callcenter{width:1200px; height:141px; position:relative}
+
+/*main5 콜센터 왼쪽*/
+.callcenter_left{float:left; height:141px; padding-left:120px; background:url(../images/mainImg/LH_icon_bigcall.png) no-repeat 0 center}
+.callcenter_left h3{margin:0}
+.callcenter_left p{font-size:52px; font-weight:black}
+.callcenter_left span{font-size:18px}
+
+/*main5 콜센터 오른쪽*/
+.callcenter_right{float:right}
+.callcenter_right ul{width: 789px; height:141px}
+.callcenter_right li{float:left; width:240px; height:49px; margin:0 3px 3px 0; background-color:#f2f2f2; padding:10px}
+.callcenter_right li:first-child{margin-left:0}
+.callcenter_right li a{background:url(../images/mainImg/LH_icon_call.png) no-repeat 0 0; display:inline-block; width:150px; height:44px; padding-left:100px; line-height:49px}
+.callcenter_right .ccBtn_1{background-position:0 0}
+.callcenter_right .ccBtn_2{background-position:0 -44px}
+.callcenter_right .ccBtn_3{background-position:0 -89px}
+.callcenter_right .ccBtn_4{background-position:0 -134px}
+.callcenter_right .ccBtn_5{background-position:0 -178px}
+.callcenter_right .ccBtn_6{background-position:0 -223px}
+
+
+
+
+
+/*main6 하단배너*/
+.main6_banner{width:1200px; height:82px; position:relative; overflow:hidden}
+.main6_banner .ub_prev{ float:left; margin:31px 10px 0 0}
+.main6_banner .ub_next{float:left; margin:31px 0px 0 0}
+.bannerList{width:1150px; height:82px; overflow:hidden;  float:left; position:relative; margin-right:10px}
+.bannerImg{width:3000px; height:82px; position:absolute; top:0; left:0}
+.bannerImg li{width:200px; height:82px; float:left; padding-left:15px}
+.bannerImg li:first-child{padding-left:0}

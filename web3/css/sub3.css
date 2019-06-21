@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(class.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+
+#loginWrap{width:1200px; margin:0 auto; position:relative }
+.miniNavi_login{overflow:hidden; margin-bottom:150px; }
+.miniNavi_login li{float:left; padding-left:20px;  }
+.miniNavi_login li:first-child{padding-left:0}
+.miniNavi_login li span{background:url(../images/subImg/LH_mininavi_arrow.png) no-repeat 0 1px;  padding-left:25px; }
+
+
+#tableWrap{width:1200px}
+.table{margin-bottom:350px}
+.table .table_list{border-top:3px solid #0b3a8a; border-bottom:2px solid #0b3a8a; height:50px; margin-bottom:70px}
+.table .table_list li{float:left; margin-left:70px; line-height:50px}
+.table .table_list li span{color:#0b3a8a; font-weight:bold; }
+
+.table .table_search{text-align:right; position:relative; height:30px; margin-bottom:30px}
+.table_search select{border:1px solid #999; font-weight:medium; width:100px; height:30px; margin-left:10px; padding-left:5px}
+.table_search input[type="text"]{border:1px solid #999; background-color:#fff; width:300px; height:30px; padding-left:5px}
+.table_search input[type="image"]{position:absolute; top:6px; right:10px}
+
+.table table{border-collapse:collapse; border-bottom:2px solid #0b3a8a}
+.table th{border-bottom:2px solid #0b3a8a; padding-bottom:10px; font-size:15px}
+.table td{border-bottom:1px solid #f2f2f2; padding:10px 0; text-align:center}
+.table tbody tr:hover,
+.table tbody tr:active,
+.table tbody tr:focus{background-color:#f2f2f2; font-weight:bold}
+.table td.notCenter{text-align:left}
+.table tbody button{border:none; background-color:#0b3a8a; color:#fff; width:80px; height:30px;margin-left:10px; line-height:30px}
+
+.table .paging{text-align:center;}
+.paging li{display:inline-block; *display:inline; zoom:1; padding:0 25px; margin-top:20px;}
+.paging li:first-child{padding-left:0}
+.paging li.currentPage{font-weight:bold; color:#0b3a8a; font-size:17px; }
+
+
+
+
+.userEvaluate{width:1150px; height:85px; background-color:#f2f2f2; padding:30px; margin-bottom:50px; position:relative}
+.userEvaluate dl{width:750px; height:30px; overflow:hidden; margin-top:10px; }
+.userEvaluate dl:first-child{margin-top:0}
+.userEvaluate dt{float:left; margin-bottom:20px; font-size:17px; font-weight:medium; margin-right:20px}
+.userEvaluate dd{float:left; margin-left:0; }
+.userEvaluate dd button{border:none; background-color:#0b3a8a; color:#fff; width:80px; height:30px; line-height:30px; margin-left:40px; }
+.userEvaluate input[type="text"]{border:none; background-color:#fff; width:442px; height:30px; padding-left:5px}
+
+.userEvaluate input[type="radio"]{width:15px; height:15px; margin-left:30px}
+.userEvaluate .first_radio input[type="radio"]{margin-left:0}
+.userEvaluate  .first_radio{margin-left:0}
+
+.userEvaluate label{margin-left:5px; }
+.userEvaluate p{position:absolute; top:30px; right:80px; line-height:35px; font-weight:bold; border-left:1px solid #0b3a8a; padding-left:60px}
+
+.userEvaluate .department{font-size:17px; font-weight:500; }
+.userEvaluate .department_call{display:inline-block; margin-left:10px; font-size:40px; font-weight:bold; color:#0b3a8a}

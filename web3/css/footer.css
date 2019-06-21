@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#footerWrap{width:100%; height:211px; position:relative; background-color:#4d4d4d}
+#footer{width:1200px; margin:0 auto; position:relative; padding-top:50px}
+#footer > p{float:left; margin-right:40px; margin-top:10px}
+.footerMenu{float:left; }
+.footerMenuTxt{overflow:hidden; margin-bottom:10px}
+.footerMenuTxt li{float:left; padding-left:20px; }
+.footerMenuTxt li:first-child{padding-left:0;}
+.footerMenuTxt a{color:#fff; background:url(../images/mainImg/LH_footer_bar.gif) no-repeat 0 7px; padding-left:20px}
+.footerMenuTxt li:first-child a{ font-weight:bold; color:#ffff00; padding-left:0; background:none}
+.footerMenu address{color:#fff; }
+.footerMenu .address_style{margin-left:10px; background:url(../images/mainImg/LH_footer_bar.gif) no-repeat 0 7px; padding-left:10px}
+.footerMenu > p{color:#b6b6b6; letter-spacing:0}
+
+.footerSns{float:right}
+.footerSnsList{font-size:0; line-height:0; overflow:hidden}
+.footerSnsList li{float:left; padding-left:10px}
+.footerSnsList a{background:url(../images/mainImg/LH_icon_sns.png) no-repeat 0 0; display:inline-block; width:38px; height:38px}
+.footerSnsList .footerSns_facebook{background-position:0 0}
+.footerSnsList .footerSns_kakao{background-position:-38px 0}
+.footerSnsList .footerSns_twitter{background-position:-77px 0}

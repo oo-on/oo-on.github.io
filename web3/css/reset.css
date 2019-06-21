@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
+
+body, div, p, span, a, h1, h2, h3, h4, dl, dt, dd, ul, li, form, fieldset, legend, select, option, input, label, button, img, address, table, caption, colgroup, col, thead, tr, th, tbody, td{margin:0; padding:0}
+body, input, select, button{font-size:15px; font-weight:400; letter-spacing:-0.05em; color:#4d4d4d; font-family: 'Noto Sans KR', sans-serif; box-sizing:border-box}
+img, fieldset{border:none}
+img, input, button, select, .join_pointfont{vertical-align:middle}
+a:link, a:visited{color:#4d4d4d; text-decoration:none}
+a:hover, a:active, a:focus{color:#4d4d4d; text-decoration:underline}
+ul{list-style:none}
+address{font-style:normal}
+legend, .skip, caption{width:0px; height:0px; overflow:hidden; position:absolute; left:-999px; line-height:0; font-size:0}
+
+
+#skipMenu{position:absolute; width:100%; z-index:999}
+#skipMenu a{position:absolute; top:-999px}
+#skipMenu a:hover,
+#skipMenu a:active,
+#skipMenu a:focus{position:absolute; top:0; background-color:#4d4d4d; width:100%; text-align:center; color:white; font-size:20px; font-style:bold; padding:10px}
