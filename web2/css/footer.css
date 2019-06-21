@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+
+
+
+
+.footerWrap{width:100%; position:relative; bottom:5%; left:0; position:fixed ; z-index:99}
+.footer{width:1200px; margin:0 auto; position:relative}
+.pageNum{position:absolute; bottom:0; right:0; width:7px}
+.pageNum span{display:block; width:7px; height:7px; background-color:#fff; font-size:0; line-height:0; margin-top:10px; transition:height 0.5s ease}
+.pageNum span.on{display:block; background-color:#00f; width:7px; height:50px; font-size:0; line-height:0; margin-top:10px}
+
+
+.sns_icon li{float:left; width:20px; height:20px; font-size:0; margin:0 10px 15px 0}
+.sns_icon li:nth-of-type(1){background:url(../images/ncm_sns_facebook.png) no-repeat 0 0}
+.sns_icon li:nth-of-type(2){background:url(../images/ncm_sns_insta.png) no-repeat 0 0}
+.sns_icon li:nth-of-type(3){background:url(../images/ncm_sns_twitter.png) no-repeat 0 0}
+
+.footerTxtWrap{font-size:11px}
+.footerTxtWrap .copyright{color:#d9d9d9; letter-spacing:0}
