@@ -27,7 +27,7 @@
 .userInput dd{padding:0 0 10px 90px}
 .userInput label{margin-right:10px}
 .userInput input[type="text"],
-.userInput input[type="password"]{width:350px; height:37px; padding-left:10px; background-color:#fff; border:none}
+.userInput input[type="password"]{width:300px; height:37px; padding-left:10px; background-color:#fff; border:none}
 .userInput input[type="checkbox"]{width:25px; height:25px; margin-left:90px}
 .userInput .saveId{font-size:18px; padding-left:5px}
 
