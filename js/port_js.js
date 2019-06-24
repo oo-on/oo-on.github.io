@@ -184,7 +184,7 @@ $(document).ready(function(){
 	$('.demo').backgroundDraggable({axis:'y'});
 
 	//original here closed
-	$('.original').click(function () {
+	$('.original').click(function() {
 		var txt = $(this).text();
 		$(this).text(txt == 'original page is here.' ? 'original page closed.' : 'original page is here.');
 

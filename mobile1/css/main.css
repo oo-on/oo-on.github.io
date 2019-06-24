@@ -72,7 +72,7 @@ table.ich_table tbody td:nth-of-type(18){background-color:#e8e8e8}
 
 
 /*공지&보도*/
-.ich_tabmenu_wrap{width:100%; height:270px; padding:0 2%; position:relative; box-sizing:border-box}
+.ich_tabmenu_wrap{width:100%; height:290px; padding:0 2%; position:relative; box-sizing:border-box}
 .ich_tabmenu_wrap section{float:left}
 .ich_notice, .ich_news{position:absolute; top:80px; left:0; width:100%; padding:0 2%; box-sizing:border-box}
 
@@ -95,7 +95,10 @@ h2.off:after{content:' '; border:3px solid #999}
 
 
 /*하단배너*/
-.ich_banner_wrap{width:100%; height:52px; margin-bottom:30px; overflow:hidden; position:relative}
-.ich_banner_wrap ul{width:2000px; height:100%; position:absolute; top:0; left:0}
+.ich_banner_wrap{height:52px; margin-bottom:30px; overflow:hidden; position:relative}
+.ich_banner_wrap ul{width:2000px; height:52px; position:absolute}
 .ich_banner_wrap li{float:left}
+/* .ich_banner_wrap{width:100%; height:100%; position:relative}
+.ich_banner_wrap ul{width:2000px; height:52px; overflow:hidden; position:absolute; top:0; left:0}
+.ich_banner_wrap li{float:left} */
 
