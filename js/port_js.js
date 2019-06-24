@@ -170,7 +170,7 @@ $(document).ready(function(){
 			//이천세계도자축제
 			if(i == 0){
 				$(this).next('.list_wrap').find('.ich_preview > span').stop().animate({
-					'background-position-y' : '-1650px'
+					'background-position-y' : '-2500px'
 				}, 8000, function(){
 					$(this).stop().animate({
 						'background-position-y' : '0'

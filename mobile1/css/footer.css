@@ -3,6 +3,7 @@
 
 
 
+#footer *{margin:0; padding:0 clear:both}
 #footer{width:100%}
 .footer_wrap{width:100%; text-align:center; background-color:#3a71ee; padding:30px 2% 80px}
 .footer_logo{margin-bottom:20px}
