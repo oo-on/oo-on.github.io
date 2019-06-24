@@ -9,6 +9,12 @@ $(document).ready(function(){
 	})
 
 
+	/*------------------intro bg animate----------------------------*/
+	$('.intro_bg').animate({
+		top:'-3000px'
+	},2500)
+
+
 	/*-----------------titlecopy typing effect-------------------------*/
 	var typingBool = false; 
 	var typingTxt = $('.typing_txt').text(); 
@@ -24,7 +30,7 @@ $(document).ready(function(){
 		typingIdx ++; 
 		if(typingIdx < typingTxt.length){ 
 			$('.typing').append(typingTxt[typingIdx]); 
-		} else{ 
+		}else{ 
 			clearInterval(tySt);
 		} 
 	}  
@@ -119,20 +125,20 @@ $(document).ready(function(){
 			if(i == 1){
 				$(this).next('.list_wrap').find('.ncm_preview > span').stop().animate({
 					'background-position-y' : '-1670px'
-				}, 8000, function(){
+				}, 13000, 'linear', function(){
 					$(this).stop().animate({
 						'background-position-y' : '0'
-					}, 6000)
+					}, 10000)
 				})
 			}
 			//LH
 			else if(i == 2){
 				$('.lh_preview > span').stop().animate({
 					'background-position-y' : '-680px'
-				}, 8000, function(){
+				}, 10000, 'linear', function(){
 					$(this).stop().animate({
 						'background-position-y' : '0'
-					}, 6000)
+					}, 8000)
 				})
 			}
 		}
@@ -171,10 +177,10 @@ $(document).ready(function(){
 			if(i == 0){
 				$(this).next('.list_wrap').find('.ich_preview > span').stop().animate({
 					'background-position-y' : '-2500px'
-				}, 8000, function(){
+				}, 25000, 'linear', function(){
 					$(this).stop().animate({
 						'background-position-y' : '0'
-					}, 6000)
+					}, 12000)
 				})
 			}
 		}
