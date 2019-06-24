@@ -223,9 +223,9 @@ transform:translateY(500px); transition:all 0.5s ease}
 .co_service_txt_wrap li:nth-of-type(3),
 .co_service_txt_wrap li:nth-of-type(4){text-align:center; padding-top:105px}
 
-.co_service_txt_wrap li:nth-of-type(2){background:url(../images/co_service1.png) no-repeat 70% 0}
-.co_service_txt_wrap li:nth-of-type(3){background:url(../images/co_service2.png) no-repeat 65% 0}
-.co_service_txt_wrap li:nth-of-type(4){background:url(../images/co_service3.png) no-repeat 70% 0}
+.co_service_txt_wrap li:nth-of-type(2){background:url(../images/co_service1.png) no-repeat 60% 0}
+.co_service_txt_wrap li:nth-of-type(3){background:url(../images/co_service2.png) no-repeat 60% 0}
+.co_service_txt_wrap li:nth-of-type(4){background:url(../images/co_service3.png) no-repeat 60% 0}
 
 .center_bold{font-weight:700; font-size:1.2em; margin-bottom:5px}
 
