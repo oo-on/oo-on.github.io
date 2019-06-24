@@ -188,24 +188,27 @@ $(document).ready(function(){
 	//드래그
 	$('.demo').backgroundDraggable({axis:'y'});
 
-	//original here closed
-	$('.original').click(function() {
-		var txt = $(this).text();
-		$(this).text(txt == 'original page is here.' ? 'original page closed.' : 'original page is here.');
-
-		if(txt == 'original page is here.'){
-			$(this).next('.original_img').fadeIn(600);
-		}else{
-			$(this).next('.original_img').fadeOut(600);
-		}
-	})
-
+	
 	//반응형 미리보기
-	$('.co_list .res_preview').click(function(e){
-		e.preventDefault();
+	$('.co_section .res_preview span').click(function(){
 		var idx=$(this).index();
-		$('.co_preview span').removeClass('previewOn');
-		$('.co_preview span:eq('+idx+')').addClass('previewOn');
+		$('.co_section .preview_img span').removeClass('previewOn');
+		$('.co_section .preview_img span:eq('+idx+')').addClass('previewOn');
+		if(idx>=2){
+			$('.preview_btn').css({
+				'left':0
+			}, 500, 'linear')
+			$('.preview_btn p').animate({
+				'width':'200px'
+			}, 800, 'linear')
+		}else{
+			$('.preview_btn').css({
+				'right':'54.5%'
+			}, 500, 'linear')
+			$('.preview_btn p').animate({
+				'width':'600px'
+			}, 800, 'linear')
+		}
 	})
 
 
