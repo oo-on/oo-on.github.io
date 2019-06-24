@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 	/*------------------intro bg animate----------------------------*/
 	$('.intro_bg').animate({
-		top:'-3000px'
+		top:'-3100px'
 	},2500)
 
 
@@ -39,11 +39,8 @@ $(document).ready(function(){
 	/*------------------scroll animate---------------------*/
 	$('.port_logo').hide();
 	
-	var introTop = $('.introWrap').offset().top;
 	var worksTop = $('.worksWrap').offset().top;
-	var profileTop = $('.profileWrap').offset().top;
 	
-
 	$(window).scroll(function(){
 		if($(this).scrollTop() > worksTop - ($(window).height()/4)){
 			$('.port_logo').fadeIn(600);
@@ -90,6 +87,7 @@ $(document).ready(function(){
 	
 	
 	/*--------------------works--------------------*/
+	/*
 	//타이틀 한영 toggle
 	function koTxt(thisTitle){
 		var idx = thisTitle.parent().index();
@@ -185,6 +183,7 @@ $(document).ready(function(){
 			}
 		}
 	})
+	*/
 
 	//드래그
 	$('.demo').backgroundDraggable({axis:'y'});
