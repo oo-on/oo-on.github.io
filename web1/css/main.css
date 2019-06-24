@@ -433,7 +433,7 @@ transform:translateY(500px); transition:all 0.5s ease}
 
 	/*********footer**********/
 	footer.footerWrap{height:230px}
-	footer.footerWrap *{font-size:0.8em}
+	footer.footerWrap *{font-size:0.9em}
 	ul.footer_sns{font-size:0; margin-left:38%}
 }
 
