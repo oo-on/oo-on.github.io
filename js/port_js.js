@@ -65,20 +65,24 @@ $(document).ready(function(){
 
 	/*---------------nav effects--------------------*/
 	
+	var worksTop = $('.worksWrap').offset().top;
+	var profileTop = $('.profileWrap').offset().top;
 	$('.port_nav li').on({
 		click:function(){
 			$('.port_nav li').removeClass('nav_on');
 			$(this).addClass('nav_on');
 
 			var navNum=$(this).index();
-			if(navNum<2){
-				var page=$('#container > div').eq(navNum+1)
+			if(navNum == 0){
+				$('html, body').animate({
+					scrollTop : worksTop
+				}, 1000)
 			}else{
-				var page=$('#container > div').eq(navNum)
+				$('html, body').animate({
+					scrollTop : profileTop
+				}, 1000)
 			}
-			$('html, body').animate({
-				scrollTop : page.offset().top
-			}, 800)
+			
 			
 			
 			// $('.port_nav li').removeClass('nav_on');
