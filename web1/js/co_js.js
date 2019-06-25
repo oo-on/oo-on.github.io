@@ -33,7 +33,10 @@ $(function(){
 			$('#gnbWrap').css({
 				'display' : 'block'
 			})
-			$('.gnb_2depth').show();
+			$('.gnb_2depth').hide();
+			$('.gnb_1depth').click(function(){
+				$(this).children('.gnb_2depth').toggle();
+			})
 		}else{
 			$('#gnbWrap').css({
 				'display' : 'none'
@@ -164,6 +167,7 @@ $(function(){
 				'display' : 'block'
 			})
 		}else{
+			$('.gnbBtn a').removeClass('boxOn');
 			$('#gnbWrap').css({
 				'display' : 'none'
 			})

@@ -1,13 +1,10 @@
 $(function(){
-
+	
 	/*페이지 스크롤*/
-	var scrollEvent = false;
-	var count = 0;
+	var scrollEvent=false;
+	var count=0;
 	
 	$('html, body').on('mousewheel DOMMouseScroll', function(e){
-		//window.addEventListener("mousewheel", {passive: true});
-		//document.addEventListener('mousewheel', {passive: true});
-		//e.preventDefault();
 		var m = e.originalEvent.wheelDelta;
 		var pageH = $('#container > section').height();
 		
