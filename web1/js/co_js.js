@@ -33,6 +33,7 @@ $(function(){
 			$('#gnbWrap').css({
 				'display' : 'block'
 			})
+			$('.gnb_2depth').show();
 		}else{
 			$('#gnbWrap').css({
 				'display' : 'none'
@@ -110,9 +111,9 @@ $(function(){
 	//resize event
 	$(window).resize(function(){
 		cont = $('#container').offset().top;
-		var tabBannerHeight = parseInt($('.co_banner > ul > li').height());
-		var mainBannerHeight = parseInt($('.banner_img img').height());
-		var iocareBgHeight = parseInt($('.iocare_bg img').height());
+		var tabBannerHeight = $('.co_banner > ul > li').height();
+		var mainBannerHeight = $('.tabOn .banner_img img').height();
+		var iocareBgHeight = $('.iocare_bg img').height();
 		
 		$('.iocare_wrap').css({
 			'height' : iocareBgHeight

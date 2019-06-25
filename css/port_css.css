@@ -94,27 +94,44 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 
 .contents_wrap{position:relative}
 .preview{float:left}
-.preview_img span{width:600px; height:360px; position:absolute; top:0; right:54.5%; cursor:move}
+.preview_img span{width:45%; height:360px; position:absolute; top:0; right:54.5%; cursor:move}
+.preview_img:before{content:''; display:inline-block; width:100px; height:100px; background:url(../images/pf_drag.png) no-repeat 0 0; position:absolute; top:40%; left:22%; z-index:9; transform:translateY(0);opacity:1; animation:drag 3s ease-in-out infinite}
+.ich_section .preview_img:before{left:33%}
+@keyframes drag{
+	0%{transform:translateY(0); opacity:1}
+	95%{transform:translateY(-50px)}
+	100%{transform:translateY(-50px); opacity:0}
+}
+.preview_img:hover:before{display:none}
+
 .co_section .preview_img span{display:none}
-.co_section .preview_img span.previewOn{display:block; height:460px}
+.co_section .preview_img span.previewOn{display:block; height:480px}
 .co_section .preview_img span:nth-of-type(1){height:360px; background:url(../images/CO_preview.jpg) no-repeat 0 0; background-size:cover}
-.co_section .preview_img span:nth-of-type(2){width:480px; height:360px; background:url(../images/CO_preview_1024.jpg) no-repeat 0 0; background-size:cover}
-.co_section .preview_img span:nth-of-type(3){width:360px; background:url(../images/CO_preview_768.jpg) no-repeat 0 0; background-size:cover}
-.co_section .preview_img span:nth-of-type(4){width:300px; background:url(../images/CO_preview_640.jpg) no-repeat 0 0; background-size:cover}
-.co_section .preview_img span:nth-of-type(5){width:210px; background:url(../images/CO_preview_375.jpg) no-repeat 0 0; background-size:cover}
+.co_section .preview_img span:nth-of-type(2){width:40%; height:360px; background:url(../images/CO_preview_1024.jpg) no-repeat 0 0; background-size:cover}
+.co_section .preview_img span:nth-of-type(3){width:25%; background:url(../images/CO_preview_768.jpg) no-repeat 0 0; background-size:cover}
+.co_section .preview_img span:nth-of-type(4){width:22%; background:url(../images/CO_preview_640.jpg) no-repeat 0 0; background-size:cover}
+.co_section .preview_img span:nth-of-type(5){width:18%; background:url(../images/CO_preview_375.jpg) no-repeat 0 0; background-size:cover}
 
 .ncm_section .preview_img span{background:url(../images/NCM_preview.jpg) no-repeat 0 0; background-size:cover}
 .lh_section .preview_img span{background:url(../images/LH_preview.jpg) no-repeat 0 0; background-size:cover}
-.ich_section .preview_img span{width:300px; height:480px; background:url(../images/ICH_preview.jpg) no-repeat 0 0; background-size:cover}
+.ich_section .preview_img span{width:25%; height:500px; background:url(../images/ICH_preview.jpg) no-repeat 0 0; background-size:cover}
 
-.preview_btn{position:absolute; bottom:0; right:54.5%}
-.preview_btn p{border:1px solid #ff3; width:600px; line-height:2; text-align:center; margin-top:1%}
+.preview_btn{position:absolute; bottom:0; right:54.5%; width:45%}
+.preview_btn p{border:1px solid #ff3; line-height:2; text-align:center; margin-top:1%}
 .preview_btn p a{color:#ff3}
 .preview_btn p:hover{border:none; background-color:#ff3} 
 .preview_btn p:hover a{color:#222} 
 
-.ich_section .preview_btn{left:0}
-.ich_section .preview_btn p{width:200px}
+.ich_section .preview_btn{left:0; width:40%}
+.ich_section .preview_btn p{width:40%}
+
+.original_img{cursor:move; display:none}
+.original_img span{display:inline-block; width:500px; height:320px; position:absolute; bottom:0; right:-560px}
+.co_original_img span{background:url(../images/CO_before.jpg) no-repeat 0 0; background-size:cover}
+.ncm_original_img span{background:url(../images/NCM_before.jpg) no-repeat 0 0; background-size:cover}
+.lh_original_img span{background:url(../images/LH_before.jpg) no-repeat 0 0; background-size:cover}
+.ich_original_img span{width:250px; height:400px; position:absolute; top:-440px; left:0;
+					background:url(../images/ICH_before.jpg) no-repeat 0 0; background-size:cover}
 
 .port_text{float:right; width:50%; line-height:2}
 .res_preview{text-align:center; padding:2% 0}
@@ -123,7 +140,8 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 .res_preview a{color:#ff3; line-height:25px}
 .res_preview span:hover{border:none; background-color:#ff3}
 .res_preview span:hover a{color:#222}
-.textbox{margin:130px 0 20px}
+.textbox{width:500px; margin:130px 0 20px}
+.text li:nth-of-type(6){width:500px}
 .co_section .textbox{margin:80px 0 20px}
 
 
@@ -138,8 +156,7 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 
 .profile_list{padding:30px 0 0 48%; line-height:2; font-size:0.7em}
 
-.profile_etc > li{margin-top:40px; cursor:pointer}
-.profile_etc li ul{}
+.profile_etc > li{margin-top:40px}
 .profile_etc li ul li{font-size:15px}
 .profile_etc span{display:block}
 

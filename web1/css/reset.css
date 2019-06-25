@@ -10,7 +10,7 @@ br{font-family:dotum}
 header, footer, nav, section, aside{display:block}
 ul{list-style:none}
 img, fieldset{border:none}
-img, button, input{vertical-align:middle}
+img, button, input, select{vertical-align:middle}
 a:link, a:visited{color:#555; text-decoration:none}
 a:hover, a:active, a:focus{color:#555; text-decoration:underline}
 legend, .skip{width:1px; height:1px; display:block; visibility:hidden; font-size:0; line-height:0; position:absolute; left:-9999px}

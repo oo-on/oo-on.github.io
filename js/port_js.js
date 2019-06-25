@@ -41,7 +41,7 @@ $(document).ready(function(){
 	
 	var worksTop = $('.worksWrap').offset().top;
 	
-	$(window).scroll(function(){
+	$('html, body').scroll(function(){
 		if($(this).scrollTop() > worksTop - ($(window).height()/4)){
 			$('.port_logo').fadeIn(600);
 			$('.header_wrap').css({
@@ -70,16 +70,31 @@ $(document).ready(function(){
 			$('.port_nav li').removeClass('nav_on');
 			$(this).addClass('nav_on');
 
-			var navNum = $(this).index();
+			var navNum=$(this).index();
 			if(navNum<2){
-				var page = $('#container > div').eq(navNum+1);
+				var page=$('#container > div').eq(navNum+1)
 			}else{
-				var page = $('#container > div').eq(navNum);
+				var page=$('#container > div').eq(navNum)
 			}
-			var offset =  page.offset().top;
 			$('html, body').animate({
-				scrollTop : offset
+				scrollTop : page.offset().top
 			}, 800)
+			
+			
+			// $('.port_nav li').removeClass('nav_on');
+			// $(this).addClass('nav_on');
+
+			// var navNum = $(this).index();
+			// if(navNum<2){
+			// 	var page = $('#container > div').eq(navNum+1);
+			// }else{
+			// 	var page = $('#container > div').eq(navNum);
+			// }
+			// var offset =  page.offset().top;
+			// $('html, body').animate({
+			// 	scrollTop : offset
+			// }, 800)
+			
 		}
 	})
 	
@@ -87,7 +102,7 @@ $(document).ready(function(){
 	
 	/*--------------------works--------------------*/
 	
-	//드래그
+	//drag
 	$('.demo').backgroundDraggable({axis:'y'});
 
 	
@@ -96,28 +111,37 @@ $(document).ready(function(){
 		var idx=$(this).index();
 		$('.co_section .preview_img span').removeClass('previewOn');
 		$('.co_section .preview_img span:eq('+idx+')').addClass('previewOn');
+		
 		if(idx>=2){
 			$('.co_section .preview_btn').css({
 				'left':0
 			}, 500, 'linear')
 			$('.co_section .preview_btn p').animate({
-				'width':'200px'
+				'width':'40%'
 			}, 800, 'linear')
 		}else{
 			$('.co_section .preview_btn').css({
 				'right':'54.5%'
 			}, 500, 'linear')
 			$('.co_section .preview_btn p').animate({
-				'width':'600px'
+				'width':'100%'
 			}, 800, 'linear')
 		}
 	})
 
 
-	/*---------------profile----------------------*/
-	$('.profile_etc > li').click(function(){
-		$(this).children('ul').slideToggle(600)
+	//original page 보기
+	$('.original').click(function(){
+		console.log(1);
+		$(this).next('.original_img').toggle(600);
 	})
+
+
+
+	/*---------------profile----------------------*/
+	// $('.profile_etc > li').click(function(){
+	// 	$(this).children('ul').slideToggle(600)
+	// })
 
 
 })
