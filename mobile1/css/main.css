@@ -19,7 +19,7 @@ h2.ich_title:after{content:' '; display:block; border:3px solid #333; width:120p
 
 /*축제가이드*/
 .ich_guide_wrap{width:100%; position:relative}
-.ich_guide_bg{width:417px; height:432px; background:url(../images/ich_back_ceramic.png) no-repeat right 0 / 417px 432px; position:absolute; top:60px; right:-100px; z-index:-1}
+.ich_guide_bg{width:417px; height:432px; background:url(../images/ich_back_ceramic.png) no-repeat right 0 / 417px 432px;position:absolute; top:60px; right:-100px; z-index:-1}
 
 .ich_guide_txt_wrap{width:100%; height:420px; margin:0 2%}
 .ich_guide_txt{display:block; border-bottom:1px dotted #333; padding:10px 0}
