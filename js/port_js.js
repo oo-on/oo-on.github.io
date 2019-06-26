@@ -48,7 +48,7 @@ $(document).ready(function(){
 			});
 			$('.port_logo').fadeIn(600);
 			$('.header_wrap').css({
-				'height' : '50px',
+				'height' : '40px',
 				'background-color' : 'rgba(0,0,0,0.7)'
 			}, 1000)
 			
