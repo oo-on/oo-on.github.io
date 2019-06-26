@@ -173,7 +173,8 @@ $(function(){
 			})
 		}
 	})
-
+	$(window).resize().resize();
+	
 	//scroll event
 	$('html, body').scroll(function(){
 		cont = $('#container').offset().top;
@@ -221,6 +222,5 @@ $(function(){
 				'opacity':'1'
 			}, 1000)
 		}
-
 	})
 })

@@ -127,6 +127,15 @@ $(document).ready(function(){
 	})
 
 
+	
+	/**********profile************/
+
+	$('.edi_more a').click(function(){
+		$('.edi_wrap').fadeToggle();
+		$('.edi_more a span:eq(1)').fadeToggle();
+	})
+
+
 
 
 })

@@ -266,7 +266,7 @@ transform:translateY(500px); transition:all 0.5s ease}
 
 	/*******container********/
 	.co_main, .co_iocare, .co_story, .co_service{float:none; width:100%}
-	.co_main{height:864px}
+	/* .co_main{height:864px} */
 	.co_banner > ul > li{position:absolute; top:60px; left:0}
 	div.co_tabmenu{top:590px}
 	
@@ -381,7 +381,6 @@ transform:translateY(500px); transition:all 0.5s ease}
 
 
 	/*********container**********/
-	.co_main{height:1665px}
 	.co_tabmenu, .co_product{display:none}
 	
 	.co_banner > ul > li{position:inherit; display:block}
@@ -444,7 +443,6 @@ transform:translateY(500px); transition:all 0.5s ease}
 	p.footer_site span,
 	.footer_family{display:none}
 
-	.co_main{height:1509px}
 	.co_service_txt_wrap ul{height:100%}
 	.co_service_txt_wrap li:last-child{border-bottom:none}
 	
@@ -455,7 +453,6 @@ transform:translateY(500px); transition:all 0.5s ease}
 
 
 @media all and (max-width:375px){
-	.co_main{height:975px}
 	.banner_txt p:nth-of-type(1){font-size:3em; margin-bottom:2%; color:#009ddc}
 	.banner_txt p:nth-of-type(2){font-size:1em; line-height:1.5; letter-spacing:-0.05em}
 	.banner_txt_more{margin-top:7%;  width:90px; height:25px; line-height:25px; border-radius:25px}
