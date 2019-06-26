@@ -123,7 +123,6 @@ $(document).ready(function(){
 
 	//original page 보기
 	$('.original').click(function(){
-		console.log(1);
 		$(this).next('.original_img').toggle(600);
 	})
 

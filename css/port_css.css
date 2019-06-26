@@ -108,7 +108,7 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 
 .ncm_section .preview_img span{background:url(../images/NCM_preview.jpg) no-repeat 0 0; background-size:cover}
 .lh_section .preview_img span{background:url(../images/LH_preview.jpg) no-repeat 0 0; background-size:cover}
-.ich_section .preview_img span{width:25%; height:510px; background:url(../images/ICH_preview.jpg) no-repeat 0 0; background-size:cover}
+.ich_section .preview_img span{width:25%; height:510px; background:url(../images/ich_preview.jpg) no-repeat 0 0; background-size:cover}
 
 .preview_btn{position:absolute; bottom:0; right:54.5%; width:45%}
 .preview_btn p{border:1px solid #ff3; line-height:2; text-align:center; margin-top:1%}
@@ -125,7 +125,7 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 .ncm_original_img span{background:url(../images/NCM_before.jpg) no-repeat 0 0; background-size:cover}
 .lh_original_img span{background:url(../images/LH_before.jpg) no-repeat 0 0; background-size:cover}
 .ich_original_img span{width:40%; height:400px; position:absolute; top:-438px; left:0;
-					background:url(../images/ICH_before.jpg) no-repeat 0 0; background-size:cover}
+					background:url(../images/ich_before.jpg) no-repeat 0 0; background-size:cover}
 
 .port_text{float:right; width:50%; line-height:2}
 .res_preview{text-align:center; padding:2% 0}
