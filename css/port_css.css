@@ -159,7 +159,7 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 .profile_skill li:last-child{margin-bottom:0}
 
 .editorial{position:relative}
-.edi_more{display:inline-block; position:absolute; top:10px; left:-47px}
+.edi_more{display:inline-block; width:30px; height:30px; position:absolute; top:10px; left:-47px}
 .edi_more a{display:inline-block; width:30px; height:30px; border-radius:50%; border:2px solid #ff3; position:relative}
 .edi_more a span{display:inline-block; width:17px; border:1px solid #ff3; position:absolute; top:12px; left:5px}
 .edi_more a span:nth-of-type(2){transform:rotate(90deg)}
