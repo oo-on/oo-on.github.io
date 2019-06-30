@@ -3,7 +3,7 @@
 
 body, div, header, footer, nav, section, article, aside, p, span, a, h1, h2, h3, h4, strong, dl, dt, dd, ul, li, form, fieldset, legend, select, option, input, label, button, img, table, caption, thead, tr, th, tbody, td, button{margin:0; padding:0; box-sizing:border-box}
 
-html, body{width:100%; height:100%}
+html, body{width:100%; height:100%; overflow-y:hidden}
 
 body, input, select, button{font-size:13px; font-weight:300; letter-spacing:-0.03em; color:#fff; font-family: 'Noto Sans KR', sans-serif}
 img, fieldset{border:none}

@@ -24,43 +24,44 @@
 .scroll_arrow{display:inline-block; width:30px; height:30px; position:absolute; bottom:5%; left:50%; margin-left:-30px; z-index:1000; animation:scroll_arrow 3s infinite}
 .scroll_img{display:inline-block; width:30px; height:30px; background:url(../images/ncm_scroll_arrow.png) no-repeat 0 0; }
 @keyframes scroll_arrow{
-							0%{transform:translateY(0)}
-							50%{transform:translateY(10px)}
-							100%{transform:translateY(0)}
-							}
+						0%{transform:translateY(0)}
+						50%{transform:translateY(10px)}
+						100%{transform:translateY(0)}
+						}
 
 .scrolltop_arrow{display:inline-block; width:30px; height:30px; position:absolute; top:5%; left:50%; margin-left:-30px; z-index:1000; animation:scrolltop_arrow 3s infinite}
 .scrolltop_arrow .scroll_img{transform:rotate(180deg)}
 @keyframes scrolltop_arrow{
-								0%{transform:translateY(0)}
-								50%{transform:translateY(-10px)}
-								100%{transform:translateY(0)}
-								}
+							0%{transform:translateY(0)}
+							50%{transform:translateY(-10px)}
+							100%{transform:translateY(0)}
+							}
 
 
 
 /*1p Main*/
 .main{width:100%; height:100%; position:relative}
 .main .main_intro{width:1200px; height:625px; margin:0 auto; padding-top:12%; position:relative}
-.main_intro .main_text{float:right; font-size:25px; font-weight:100; }
-.main_intro .main_text strong{font-weight:700; }
-
-.main_intro h3{position:absolute; bottom:0; z-index:1; border:2px solid #fff; width:110px; height:110px; border-radius:50%; text-align:center; line-height:105px; overflow:hidden; cursor:pointer; }
+.main_intro .main_text{float:right; font-size:25px; font-weight:100}
+.main_intro .main_text strong{font-weight:700}
+ 
+.main_intro h3{position:absolute; bottom:0; z-index:1; border:2px solid #fff; width:110px; height:110px; border-radius:50%; text-align:center; line-height:105px; overflow:hidden; cursor:pointer}
 .main_intro h3:nth-of-type(1){right:300px}
 .main_intro h3:nth-of-type(2){right:170px}
 .main_intro h3:after{content:' '; width:110px; height:110px; background-color:#00f; position:absolute; left:100%; z-index:-1; transition:1s ease}
-.main_intro h3:hover:after{left:0; }
+.main_intro h3:hover:after{left:0}
 
 .main_xline{z-index:1; position:absolute; bottom:0; right:-1000px; width:110px; height:110px; cursor:pointer}
-.main_xline span{display:inline-block; position:absolute; bottom:50px; right:0; width:110px; border:1px solid #fff; }
+
+.main_xline span{display:inline-block; position:absolute; bottom:50px; right:0; width:110px; border:1px solid #fff}
 .main_xline .line_1{transform:rotate(45deg)}
 .main_xline .line_2{transform:rotate(135deg)}
 
 
 .main .main_info,
-.main .main_map{width:100%; height:100%; position:absolute; top:0; left:-2000px; background:linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0)); }
+.main .main_map{width:100%; height:100%; position:absolute; top:0; left:-2000px; background:linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0))}
 
-.main_info .info{width:1200px; height:625px; margin:0 auto; padding-top:12%; }
+.main_info .info{width:1200px; height:625px; margin:0 auto; padding-top:12%}
 .main_info .info_left{float:left; height:400px; padding-right:30px}
 .main_info .info h4,
 .map_text h4{color:#00f; font-weight:700; font-size:15px; margin-bottom:10px; text-align:left}
@@ -73,10 +74,10 @@
 .info table thead tr th{padding:5px}
 .info table tbody tr td{line-height:2; border-bottom:1px solid #00f; padding:5px}
 
-.info ul{font-size:11px; margin-bottom:50px}
+.info ul{font-size:11px; margin-bottom:50px} 
 
 
-.map{width:1200px; height:625px; margin:0 auto; padding-top:275px; }
+.map{width:1200px; height:625px; margin:0 auto; padding-top:275px}
 #map_view{float:left; margin-right:30px}
 .map_text p{margin-bottom:50px}
 
@@ -94,8 +95,8 @@
 .wind_yearTxt{font-size:17px; font-weight:900;  color:#00f; position:absolute; top:45%; right:15%; z-index:2}
 .wind_text{font-size:15px; font-weight:700;  line-height:1.8; color:#00f; position:absolute; top:10%; left:40%}
 
-.wind_down a{display:inline-block; width:250px; height:70px; background:url(../images/ncm_download.png) no-repeat; margin-top:30px; }
-.wind_down span{display:inline-block; font-size:15px; font-weight:700; color:#00f; padding-left:80px; margin-top:45px; }
+.wind_down a{display:inline-block; width:250px; height:70px; background:url(../images/ncm_download.png) no-repeat; margin-top:30px}
+.wind_down span{display:inline-block; font-size:15px; font-weight:700; color:#00f; padding-left:80px; margin-top:45px}
 .wind_xbtn{background:url(../images/ncm_X.png) no-repeat 0 0; width:30px; height:30px; position:absolute; right:-50px; top:0; transition:1s ease; cursor:pointer}
 .wind_xbtn:hover{transform:scale(1.1)}
 
@@ -110,17 +111,18 @@
 .apple_xbtn:hover{transform:scale(1.1)}
 
 
+
 /*3p VR OPEN CALL*/
 .opencall_wrap{width:1200px; height:100%; margin:0 auto}
 .opencall_main{width:1200px; position:absolute; top:50%; margin-top:-26px}
-.opencall_main h2{position:absolute; left:50%; margin-left:-295px; }
+.opencall_main h2{position:absolute; left:50%; margin-left:-295px}
 
 .opencall_mainYear{width:1200px; height:80px; margin-top:150px; background:url(../images/ncm_opencall_dotline.png) no-repeat 38px 8px}
 .opencall_mainYear a{display:block; float:left; margin-left:25%; text-align:center; transition:0.5s ease}
 .opencall_mainYear a:first-child{margin-left:0}
 .opencall_mainYear .squareBtn{display:inline-block; background-color:#0f0; width:20px; height:20px; margin-bottom:10px; transition:0.5s ease}
-.opencall_mainYear .squareBtn_last{display:inline-block; border:4px solid #0f0; width:20px; height:20px; margin-bottom:10px;}
-.opencall_mainYear img{display:block; }
+.opencall_mainYear .squareBtn_last{display:inline-block; border:4px solid #0f0; width:20px; height:20px; margin-bottom:10px}
+.opencall_mainYear img{display:block}
 .opencall_mainYear a:hover > .squareBtn{transform:rotate(360deg)}
 .opencall_mainYear a:nth-of-type(4):hover{transform:scale(1.05)}
 
@@ -129,10 +131,10 @@
 
 .opencall_wrap article{width:1200px; position:absolute; top:20%}
 .opencall_wrap article h3{margin-bottom:35px}
-.opencall_wrap article h4{font-weight:900; font-size:17px; line-height:1.8; }
-.leftContents{float:left; width:180px; height:300px; }
-.opencall_wrap article p{float:left; margin-left:150px; line-height:1.8; color:#0f0; }
-.videolist{float:right; width:215px; }
+.opencall_wrap article h4{font-weight:900; font-size:17px; line-height:1.8}
+.leftContents{float:left; width:180px; height:300px}
+.opencall_wrap article p{float:left; margin-left:150px; line-height:1.8; color:#0f0}
+.videolist{float:right; width:215px}
 .videolist a{display:inline-block; width:100px; height:90px; overflow:hidden; position:relative}
 .videolist a:nth-of-type(1){margin:0 10px 10px 0}
 .videolist a:nth-of-type(2){margin:0 0 10px 0}
@@ -141,13 +143,13 @@
 .videolist a img{display:inline-block; width:100px; height:90px; transform:scale(1);  transition:0.8s ease}
 .playbtn{display:inline-block; width:100px; height:90px; background:url(../images/ncm_opencall_play.png) no-repeat center center; position:absolute; left:0; top:0; transform:scale(0); transition:0.8s ease;  z-index:5}
 .videolist a:hover img{transform:scale(1.2)}
-.videolist a:hover .playbtn{transform:scale(1); }
+.videolist a:hover .playbtn{transform:scale(1)}
 
 
 
 /*4p NEWS&PROGRAM*/
 
-#noticeWrap .notice_wrap{width:1200px; height:100%; margin:0 auto; padding-top:10%; position:relative; }
+#noticeWrap .notice_wrap{width:1200px; height:100%; margin:0 auto; padding-top:10%; position:relative}
 .notice_titleWrap{width:325px; float:left; margin-top:170px}
 .notice_titleWrap h3{margin-bottom:30px}
 .notice_titleWrap .news_plus{float:right; transition:0.8s ease}
@@ -160,7 +162,7 @@
 
 .newsWrap{position:absolute; right:-25px; width:790px; height:500px; overflow:auto}
 ::-webkit-scrollbar {display:none}
-.news{position:absolute; top:0; }
+.news{position:absolute; top:0}
 .news .news_line li{position:relative; float:left; overflow:hidden; margin:0 0 50px 50px}
 .news .news_line li a img{transition:0.8s ease}
 
@@ -174,11 +176,11 @@
 
 
 
-.programWrap{float:right; width:715px; background-color:#fff; color:#555; padding:30px;     display:none}
+.programWrap{float:right; width:715px; background-color:#fff; color:#555; padding:30px; display:none}
 .program h4{color:#00f; font-weight:700; font-size:15px; margin-bottom:10px; text-align:left}
 .program_top{margin-bottom:30px}
 .program_table{float:left}
-.program_notice{float:right; }
+.program_notice{float:right}
 
 .program table{border-collapse:collapse}
 .program_table table{width:430px}
@@ -190,5 +192,5 @@
 .program_table table tbody tr:nth-of-type(2) td:nth-of-type(3){text-align:center}
 
 .program_notice{margin-top:25px}
-.program_notice li{font-size:11px; margin-bottom:5px; }
-.program_notice li span{display:inline-block; color:#00f; font-size:15px; font-weight:900; }
+.program_notice li{font-size:11px; margin-bottom:5px}
+.program_notice li span{display:inline-block; color:#00f; font-size:15px; font-weight:900}
