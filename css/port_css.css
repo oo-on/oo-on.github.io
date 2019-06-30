@@ -89,7 +89,7 @@ a:hover, a:active, a:focus{color:#fff; text-decoration:none}
 .contents_wrap{position:relative}
 .preview{float:left}
 .preview_img span{width:45%; height:368px; position:absolute; top:0; right:54.5%; cursor:move}
-.preview_img span:before{content:''; display:inline-block; width:100px; height:100px; background:url(../images/pf_drag.png) no-repeat 0 0; position:absolute; top:40%; left:45%; z-index:9; transform:translateY(0);opacity:1; animation:drag 3s ease-in-out infinite; animation-delay:1s}
+.preview_img span:before{content:''; display:inline-block; width:40px; height:40px; background:url(../images/pf_drag.png) no-repeat 0 0/100% 100%; position:absolute; top:40%; left:47%; z-index:9; transform:translateY(0);opacity:1; animation:drag 3s ease-in-out infinite; animation-delay:1s}
 
 @keyframes drag{
 	0%{transform:translateY(0); opacity:1}

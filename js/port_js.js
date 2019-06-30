@@ -23,9 +23,9 @@ $(document).ready(function(){
 	
 	if(typingBool==false){  
 		typingBool=true; 
-		var tySt=setInterval(typing,200);  
-	} 
-     
+		var tySt=setInterval(typing,200); 
+	}
+
 	function typing(){
 		typingIdx ++; 
 		if(typingIdx < typingTxt.length){ 
