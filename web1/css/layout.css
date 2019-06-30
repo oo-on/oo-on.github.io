@@ -35,7 +35,7 @@ input::placeholder{color:#e5e5e5}
 .gnb_1depth > li:hover > a{color:#009ddc; font-weight:700}
 
 .gnb_2depth{display:block; position:absolute; top:0; left:150px; width:550px; height:100%; padding-left:20px; 
-				background-color:rgba(255,255,255,0.9); box-shadow: 1px 1px 0 1px rgba(0,0,0,0.1);   display:none}
+				background-color:rgba(255,255,255,0.9); box-shadow: 1px 1px 0 1px rgba(0,0,0,0.1); display:none}
 .gnb_2depth > li{float:left; margin:0 40px 50px 0}
 .gnb_2depth > li > a{display:inline-block; width:220px; font-weight:700; border-bottom:2px solid #009ddc}
 

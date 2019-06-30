@@ -2,26 +2,26 @@
 
 #mainWrap{width:100%}
 #headerWrap{width:100%; height:160px; border-bottom:1px solid #f2f2f2}
-#header{width:1200px; margin:40px auto 0; position:relative;overflow:hidden }
+#header{width:1200px; margin:40px auto 0; position:relative;overflow:hidden}
 #header *{vertical-align: middle}
 
 
- h1{float:left;  margin-right:90px;}
+ h1{float:left;  margin-right:90px}
 
-.total_search{width:447px; float:left; margin-top:40px; }
-.total_search .search{ position:relative }
+.total_search{width:447px; float:left; margin-top:40px}
+.total_search .search{ position:relative}
 .total_search .search input[type="text"]{color:#999; width:447px; height:45px;  line-height:45px; background:url(../images/mainImg/LH_searchbox.png) no-repeat 0 0; border:none; padding-left:25px}
 .total_search .searchbtn{position:absolute; right:18px; top:10px; border:none; background:none}
 
 
-.headerBtn{ height:24px; line-height:24px; float:right; margin-top:50px; }
-.headerBtn li{float:left; margin-left:20px;   }
+.headerBtn{ height:24px; line-height:24px; float:right; margin-top:50px}
+.headerBtn li{float:left; margin-left:20px}
 .headerBtn li:first-child{margin-left:0}
-.headerBtn li a{display:inline-block; height:24px; background:url(../images/mainImg/LH_headerbtn.png) no-repeat; padding-left:30px; }
+.headerBtn li a{display:inline-block; height:24px; background:url(../images/mainImg/LH_headerbtn.png) no-repeat; padding-left:30px}
 .headerBtn .headerBtnLogin{background-position:0 0}
 .headerBtn .headerBtnMap{background-position:0 -25px}
 .headerBtn .language{height:24px}
-.headerBtn .language select{width:80px; height:24px;}
+.headerBtn .language select{width:80px; height:24px}
 .headerBtn .language .langBtn{height:24px; width:30px; line-height:24px; background-color:#0b3a8a; color:white; border:none}
 
 
@@ -30,8 +30,8 @@
 
 #gnbWrap{width:100%; position:relative; border-bottom:3px solid #f2f2f2; height:65px; line-height:65px; margin:0 auto 50px; z-index:999}
 .gnb{width:1200px; margin:0 auto; position:relative; height:65px}
-.gnb1depth{float:left; }
-.gnb1depth > li{float:left; margin-left:50px; margin-top:-1px; }
+.gnb1depth{float:left}
+.gnb1depth > li{float:left; margin-left:50px; margin-top:-1px}
 .gnb1depth > li:first-child{margin-left:0}
 .gnb1depth > li:hover,
 .gnb1depth > li:active,
@@ -42,12 +42,12 @@
 .gnb2depth li span{color:#0b3a8a; height:55px;display:inline-block; width:230px; border-bottom:1px solid #0b3a8a; font-weight:bold}
 .gnb3depth > li{float:none}
 
-.gnb2depth_2{height:420px; }
-.gnb2depth_3{height:560px;}
-.gnb2depth_4{height:510px;  }
-.gnb2depth_5{height:540px; }
-.gnb2depth_6{height:550px; }
-.gnb2depth_7{height:500px;}
+.gnb2depth_2{height:420px}
+.gnb2depth_3{height:560px}
+.gnb2depth_4{height:510px}
+.gnb2depth_5{height:540px}
+.gnb2depth_6{height:550px}
+.gnb2depth_7{height:500px}
 
 
 .gnb3depth li{font-size:15px; line-height:35px}
@@ -55,7 +55,7 @@
 .gnb3depth li a:active,
 .gnb3depth li a:focus{font-weight:bold; color:#0b3a8a}
 
-.gnbAll{float:right; margin-top:20px; }
+.gnbAll{float:right; margin-top:20px}
 
 
 
