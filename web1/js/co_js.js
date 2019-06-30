@@ -5,17 +5,38 @@ $(function(){
 	})
 
 	/*******gnb********/
-	$('.gnb_1depth > li').on('mouseenter click focus', function(){
+	//mouseenter/leave
+	$('.gnb_1depth > li').on('click mouseenter focus', function(){
 		$('.gnb_2depth').hide();
-		$(this).children('.gnb_2depth').show();						
+		$(this).children('.gnb_2depth').show();
 	})
-	
-	$('.gnb_2depth').mouseleave(function(){
-		$(this).hide()
+		
+	$('.gnb_2depth').on({
+		mouseenter:function(){
+			$(this).show();
+		},
+		mouseleave:function(){
+			$(this).hide();
+		}						
 	})
 
+	//640px 이하 햄버거
 	$('.gnbBtn').click(function(){
-		$('#gnbWrap').toggle();
+		$(this).children('a').toggleClass('boxOn');
+		
+		if($(this).children('a').hasClass('boxOn')){
+			$('#gnbWrap').css({
+				'display' : 'block'
+			})
+			$('.gnb_2depth').hide();
+			$('.gnb_1depth').click(function(){
+				$(this).children('.gnb_2depth').toggle();
+			})
+		}else{
+			$('#gnbWrap').css({
+				'display' : 'none'
+			})
+		}
 	})
 
 
